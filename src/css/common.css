@@ -1,7 +1,7 @@
 body {
   font-family: 'Manrope', sans-serif;
-  background: var(--black, #1C2225);
-  color: var(--white, #FCF9F9);
+  background: var(--black, #1c2225);
+  color: var(--white, #fcf9f9);
 }
 
 h1,
