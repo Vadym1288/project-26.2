@@ -1,4 +1,9 @@
-/* Reset styles */
+body {
+  font-family: 'Manrope', sans-serif;
+  background: var(--black, #1C2225);
+  color: var(--white, #FCF9F9);
+}
+
 h1,
 h2,
 h3,
@@ -9,14 +14,11 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
