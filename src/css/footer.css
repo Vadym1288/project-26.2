@@ -1,4 +1,13 @@
 .footer-section {
+    padding: 100px 0; 
+}
+
+.footer-link {
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.footer-ornament {
     display: flex;
     width: 452px;
     height: 401px;
@@ -6,9 +15,4 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-}
-
-.footer-link {
-    padding-left: 20px;
-    padding-top: 40px;
 }
