@@ -79,6 +79,15 @@
     color: var(--yellow-color);
   }
 
+  .address-container {
+    display: flex;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+  }
+
   .address {
     display: block;
     color: var(--white-color);
@@ -86,7 +95,7 @@
     font-style: normal;
     line-height: 1.42;
     text-transform: uppercase;
-    border: 1px solid rgba(252, 249, 249, 0.1);
+    /* border: 1px solid rgba(252, 249, 249, 0.1); */
   }
 
   .address:hover,
